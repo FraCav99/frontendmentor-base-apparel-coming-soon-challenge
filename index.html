@@ -14,6 +14,12 @@
 
     <title>Frontend Mentor | Base Apparel coming soon page</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -21,6 +27,11 @@
       <header>
         <img src="images/logo.svg" alt="base apparel" />
       </header>
+
+      <picture>
+        <source media="(min-width: 768px)" srcset="images/hero-desktop.jpg" />
+        <img src="images/hero-mobile.jpg" alt="" />
+      </picture>
 
       <main>
         <h1><span>We're</span> coming soon</h1>
@@ -57,11 +68,6 @@
           </p>
         </form>
       </main>
-
-      <picture>
-        <source media="(min-width: 768px)" srcset="images/hero-desktop.jpg" />
-        <img src="images/hero-mobile.jpg" alt="" />
-      </picture>
     </div>
   </body>
 </html>
