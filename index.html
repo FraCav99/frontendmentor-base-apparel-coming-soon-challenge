@@ -23,51 +23,51 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="content-wrapper">
-      <header>
-        <img src="images/logo.svg" alt="base apparel" />
-      </header>
+    <header>
+      <img src="images/logo.svg" alt="base apparel" />
+    </header>
 
-      <picture>
-        <source media="(min-width: 768px)" srcset="images/hero-desktop.jpg" />
-        <img src="images/hero-mobile.jpg" alt="" />
-      </picture>
+    <picture>
+      <source media="(min-width: 768px)" srcset="images/hero-desktop.jpg" />
+      <img src="images/hero-mobile.jpg" alt="" />
+    </picture>
 
-      <main>
-        <h1><span>We're</span> coming soon</h1>
+    <main>
+      <h1>
+        <span class="fw-300">We're</span>
+        <span>coming</span>
+        <span>soon</span>
+      </h1>
 
-        <p>
-          Hello fellow shoppers! We're currently building our new fashion store.
-          Add your email below to stay up-to-date with announcements and our
-          launch deals.
-        </p>
+      <p>
+        Hello fellow shoppers! We're currently building our new fashion store.
+        Add your email below to stay up-to-date with announcements and our
+        launch deals.
+      </p>
 
-        <form id="newsletter-subscription-form">
-          <div class="email-input-wrapper">
-            <div class="email-input-wrapper__input">
-              <label for="email" class="visually-hidden"
-                >Your e-mail address</label
-              >
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="Email Address"
-                autocomplete="email"
-                required
-              />
+      <form id="newsletter-subscription-form">
+        <div class="email-input-wrapper">
+          <div class="email-input-wrapper__input">
+            <label for="email" class="visually-hidden"
+              >Your e-mail address</label
+            >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+              autocomplete="email"
+              required
+            />
 
-              <img src="images/icon-error.svg" alt="" />
-            </div>
-            <button class="email-input-wrapper__button">
-              <img src="images/icon-arrow.svg" alt="Email submission button" />
-            </button>
+            <img src="images/icon-error.svg" alt="" />
           </div>
-          <p id="email-error" class="email-error">
-            Please provide a valid email
-          </p>
-        </form>
-      </main>
-    </div>
+          <button class="email-input-wrapper__button">
+            <img src="images/icon-arrow.svg" alt="Email submission button" />
+          </button>
+        </div>
+        <p id="email-error" class="email-error">Please provide a valid email</p>
+      </form>
+    </main>
   </body>
 </html>
